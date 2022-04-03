@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="color.css">
+
+<script>
+    function getColor()  {
+        var colorcode= document.getElementById("colorcode").value;
+        var view =document.getElementById("color_view");
+        if(colorcode==""){
+            view.style.backgroundColor="#fff";
+        }
+        else{
+            view.style.backgroundColor=colorcode;
+        }
+    }
+</script>
+
+<body>
+    <div id="wrap">
+        <header><h1> Color Code </h1></header>
+        <div class="search_area">
+            <div class="search_text">
+                <h2>보고싶은 색상의 Color Code를 입력하세요</h2> <br>
+                <input id="colorcode" placeholder="color code">
+                <button type="button"  onclick="getColor()">입력</button>
+            </div>
+        </div>
+        <div id="color_view"> </div>
+    </div>
+</body>
+</html>
