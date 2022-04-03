@@ -1,0 +1,46 @@
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+    *{
+        margin: 0;
+    }
+    #wrap{
+        width: 100%;
+    }
+    .search_area, #color_view{
+        float: left;
+        height: 700px;
+    }
+    .search_area{    
+        width: 40%;
+    }
+    .search_text{
+        margin: 50% 18%;
+        font-family: 'Poor Story', sans-serif;
+    }
+    #color_view{
+        background-color: #eee;
+        width: 60%;
+    }
+    header{
+        width: 100%;
+        height: 90px;
+        font-size: 37px;
+        color: white;
+        font-family: 'Rubik Puddles', cursive;
+        background:linear-gradient(to right, rgba(255,0,0,0.5),rgba(255,165,0,0.5),rgba(255,255,0,0.5),rgba(0,128,0,0.5),rgba(0,0,255,0.5),rgba(128,0,128,0.5));
+    }
+    header>h1{
+        margin-left: 20px;
+    }
+    .search_text > input{
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        font-family: 'Poor Story', sans-serif;
+    }
+    .search_text > button{
+        width: 50px;
+        height: 50px;
+        font-size: 17px;
+        font-family: 'Poor Story', sans-serif;
+    }
